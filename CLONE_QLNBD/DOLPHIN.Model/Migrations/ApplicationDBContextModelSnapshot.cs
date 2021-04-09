@@ -26,7 +26,7 @@ namespace DOLPHIN.Model.Migrations
                     b.Property<string>("HienTrang")
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
 
-                    b.Property<int>("MaToChucDaiDien")
+                    b.Property<int?>("MaToChucDaiDien")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("NgayBanHanh")
@@ -57,6 +57,8 @@ namespace DOLPHIN.Model.Migrations
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("MaToChucDaiDien");
 
                     b.ToTable("BienBan");
                 });
@@ -94,10 +96,10 @@ namespace DOLPHIN.Model.Migrations
                     b.Property<string>("LoaiCongTrinh")
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
 
-                    b.Property<int>("MaCanBoQuanLy")
+                    b.Property<int?>("MaCanBoQuanLy")
                         .HasColumnType("int");
 
-                    b.Property<int>("MaGiayPhep")
+                    b.Property<int?>("MaGiayPhep")
                         .HasColumnType("int");
 
                     b.Property<int>("MaViTri")
@@ -113,6 +115,10 @@ namespace DOLPHIN.Model.Migrations
                         .HasColumnType("datetime(6)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("MaCanBoQuanLy");
+
+                    b.HasIndex("MaGiayPhep");
 
                     b.ToTable("CongTrinhKhaiThac");
                 });
@@ -159,7 +165,7 @@ namespace DOLPHIN.Model.Migrations
                     b.Property<int>("KhoiLuong")
                         .HasColumnType("int");
 
-                    b.Property<int>("MaToChuc")
+                    b.Property<int?>("MaToChuc")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("NgayBanHanh")
@@ -185,6 +191,8 @@ namespace DOLPHIN.Model.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("MaToChuc");
+
                     b.ToTable("HoSo");
                 });
 
@@ -194,7 +202,7 @@ namespace DOLPHIN.Model.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<int>("MaCanBoThucHien")
+                    b.Property<int?>("MaCanBoThucHien")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("NgayCapNhat")
@@ -210,6 +218,8 @@ namespace DOLPHIN.Model.Migrations
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("MaCanBoThucHien");
 
                     b.ToTable("HoSoQuet");
                 });
@@ -353,7 +363,7 @@ namespace DOLPHIN.Model.Migrations
                     b.Property<int>("MaLoaiChiPhi")
                         .HasColumnType("int");
 
-                    b.Property<int>("MaToChuc")
+                    b.Property<int?>("MaToChuc")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("NgayBanHanh")
@@ -363,6 +373,8 @@ namespace DOLPHIN.Model.Migrations
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("MaToChuc");
 
                     b.ToTable("ThongBao");
                 });
@@ -414,13 +426,13 @@ namespace DOLPHIN.Model.Migrations
                     b.Property<int>("LuongNuocKhaiThac")
                         .HasColumnType("int");
 
-                    b.Property<int>("MaDonViHanhChinh")
+                    b.Property<int?>("MaDonViHanhChinh")
                         .HasColumnType("int");
 
-                    b.Property<int>("MaQuanTrac")
+                    b.Property<int?>("MaQuanTrac")
                         .HasColumnType("int");
 
-                    b.Property<int>("MaToChuc")
+                    b.Property<int?>("MaToChuc")
                         .HasColumnType("int");
 
                     b.Property<int>("MaViTriKhaiThac")
@@ -458,52 +470,112 @@ namespace DOLPHIN.Model.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("MaDonViHanhChinh");
+
+                    b.HasIndex("MaQuanTrac");
+
+                    b.HasIndex("MaToChuc");
+
                     b.ToTable("ToTrinh");
+                });
+
+            modelBuilder.Entity("DOLPHIN.Model.BienBan", b =>
+                {
+                    b.HasOne("DOLPHIN.Model.ToChuc", "ToChuc")
+                        .WithMany()
+                        .HasForeignKey("MaToChucDaiDien");
+                });
+
+            modelBuilder.Entity("DOLPHIN.Model.CongTrinhKhaiThac", b =>
+                {
+                    b.HasOne("DOLPHIN.Model.CanBo", "CanBo")
+                        .WithMany()
+                        .HasForeignKey("MaCanBoQuanLy");
+
+                    b.HasOne("DOLPHIN.Model.ToTrinh", "ToTrinh")
+                        .WithMany()
+                        .HasForeignKey("MaGiayPhep");
                 });
 
             modelBuilder.Entity("DOLPHIN.Model.GiayPhepSoGiaHan", b =>
                 {
                     b.HasOne("DOLPHIN.Model.ToTrinh", "GiayPhep")
-                        .WithMany()
+                        .WithMany("GiayPhepSoGiaHan")
                         .HasForeignKey("MaGiayPhep")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("DOLPHIN.Model.SoGiaHan", "SoGiaHan")
-                        .WithMany()
+                        .WithMany("GiayPhepSoGiaHan")
                         .HasForeignKey("MaSoGiaHan")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("DOLPHIN.Model.HoSo", b =>
+                {
+                    b.HasOne("DOLPHIN.Model.ToChuc", "ToChuc")
+                        .WithMany()
+                        .HasForeignKey("MaToChuc");
+                });
+
+            modelBuilder.Entity("DOLPHIN.Model.HoSoQuet", b =>
+                {
+                    b.HasOne("DOLPHIN.Model.CanBo", "CanBo")
+                        .WithMany()
+                        .HasForeignKey("MaCanBoThucHien");
                 });
 
             modelBuilder.Entity("DOLPHIN.Model.SoHieuSoGiaHan", b =>
                 {
                     b.HasOne("DOLPHIN.Model.SoGiaHan", "SoGiaHan")
-                        .WithMany()
+                        .WithMany("SoHieuSoGiaHan")
                         .HasForeignKey("MaSoGiaHan")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("DOLPHIN.Model.SoHieu", "SoHieu")
-                        .WithMany()
+                        .WithMany("SoHieuSoGiaHan")
                         .HasForeignKey("MaSoHieu")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("DOLPHIN.Model.ThongBao", b =>
+                {
+                    b.HasOne("DOLPHIN.Model.ToChuc", "ToChuc")
+                        .WithMany()
+                        .HasForeignKey("MaToChuc");
+                });
+
             modelBuilder.Entity("DOLPHIN.Model.ToChucSoGiaHan", b =>
                 {
                     b.HasOne("DOLPHIN.Model.SoGiaHan", "SoGiaHan")
-                        .WithMany()
+                        .WithMany("ToChucSoGiaHan")
                         .HasForeignKey("MaSoGiaHan")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("DOLPHIN.Model.ToChuc", "ToChuc")
-                        .WithMany()
+                        .WithMany("ToChucSoGiaHan")
                         .HasForeignKey("MaToChuc")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("DOLPHIN.Model.ToTrinh", b =>
+                {
+                    b.HasOne("DOLPHIN.Model.DonViHanhChinh", "DonViHanhChinh")
+                        .WithMany()
+                        .HasForeignKey("MaDonViHanhChinh");
+
+                    b.HasOne("DOLPHIN.Model.QuanTrac", "QuanTrac")
+                        .WithMany()
+                        .HasForeignKey("MaQuanTrac");
+
+                    b.HasOne("DOLPHIN.Model.ToChuc", "ToChuc")
+                        .WithMany()
+                        .HasForeignKey("MaToChuc");
                 });
 #pragma warning restore 612, 618
         }

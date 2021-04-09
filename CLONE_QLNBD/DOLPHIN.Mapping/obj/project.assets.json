@@ -1253,11 +1253,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Mapping\\DOLPHIN.Mapping.csproj",
+      "projectUniqueName": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Mapping\\DOLPHIN.Mapping.csproj",
       "projectName": "DOLPHIN.Mapping",
-      "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Mapping\\DOLPHIN.Mapping.csproj",
+      "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Mapping\\DOLPHIN.Mapping.csproj",
       "packagesPath": "C:\\Users\\h\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Mapping\\obj\\",
+      "outputPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Mapping\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1277,11 +1277,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj": {
-              "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj"
+            "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj": {
+              "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj"
             },
-            "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj": {
-              "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj"
+            "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj": {
+              "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj"
             }
           }
         }

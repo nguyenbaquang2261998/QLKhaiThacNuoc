@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN\\DOLPHIN.csproj": {}
+    "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN\\DOLPHIN.csproj": {}
   },
   "projects": {
-    "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj": {
+    "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj",
         "projectName": "DOLPHIN.DTO",
-        "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj",
+        "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj",
         "packagesPath": "C:\\Users\\h\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.DTO\\obj\\",
+        "outputPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj": {
-                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj"
+              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj": {
+                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Exceptions\\DOLPHIN.Exceptions.csproj": {
+    "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Exceptions\\DOLPHIN.Exceptions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Exceptions\\DOLPHIN.Exceptions.csproj",
+        "projectUniqueName": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Exceptions\\DOLPHIN.Exceptions.csproj",
         "projectName": "DOLPHIN.Exceptions",
-        "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Exceptions\\DOLPHIN.Exceptions.csproj",
+        "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Exceptions\\DOLPHIN.Exceptions.csproj",
         "packagesPath": "C:\\Users\\h\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Exceptions\\obj\\",
+        "outputPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Exceptions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -134,14 +134,14 @@
         }
       }
     },
-    "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj": {
+    "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj",
+        "projectUniqueName": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj",
         "projectName": "DOLPHIN.Helpers",
-        "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj",
+        "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj",
         "packagesPath": "C:\\Users\\h\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Helpers\\obj\\",
+        "outputPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -161,8 +161,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj": {
-                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj"
+              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj": {
+                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj"
               }
             }
           }
@@ -205,14 +205,14 @@
         }
       }
     },
-    "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Mapping\\DOLPHIN.Mapping.csproj": {
+    "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Mapping\\DOLPHIN.Mapping.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Mapping\\DOLPHIN.Mapping.csproj",
+        "projectUniqueName": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Mapping\\DOLPHIN.Mapping.csproj",
         "projectName": "DOLPHIN.Mapping",
-        "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Mapping\\DOLPHIN.Mapping.csproj",
+        "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Mapping\\DOLPHIN.Mapping.csproj",
         "packagesPath": "C:\\Users\\h\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Mapping\\obj\\",
+        "outputPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Mapping\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -232,11 +232,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj": {
-                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj"
+              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj": {
+                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj"
               },
-              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj": {
-                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj"
+              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj": {
+                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj"
               }
             }
           }
@@ -281,14 +281,14 @@
         }
       }
     },
-    "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj": {
+    "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj",
+        "projectUniqueName": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj",
         "projectName": "DOLPHIN.Model",
-        "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj",
+        "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj",
         "packagesPath": "C:\\Users\\h\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Model\\obj\\",
+        "outputPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -368,14 +368,14 @@
         }
       }
     },
-    "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj": {
+    "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj",
         "projectName": "DOLPHIN.Repository",
-        "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj",
+        "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj",
         "packagesPath": "C:\\Users\\h\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Repository\\obj\\",
+        "outputPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -395,8 +395,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj": {
-                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj"
+              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj": {
+                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj"
               }
             }
           }
@@ -459,14 +459,14 @@
         }
       }
     },
-    "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Service\\DOLPHIN.Service.csproj": {
+    "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Service\\DOLPHIN.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Service\\DOLPHIN.Service.csproj",
+        "projectUniqueName": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Service\\DOLPHIN.Service.csproj",
         "projectName": "DOLPHIN.Service",
-        "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Service\\DOLPHIN.Service.csproj",
+        "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Service\\DOLPHIN.Service.csproj",
         "packagesPath": "C:\\Users\\h\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Service\\obj\\",
+        "outputPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -486,17 +486,17 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj": {
-                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj"
+              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj": {
+                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj"
               },
-              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj": {
-                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj"
+              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj": {
+                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj"
               },
-              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj": {
-                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj"
+              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj": {
+                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj"
               },
-              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj": {
-                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj"
+              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj": {
+                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj"
               }
             }
           }
@@ -547,14 +547,14 @@
         }
       }
     },
-    "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.WebApi\\DOLPHIN.WebApi.csproj": {
+    "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.WebApi\\DOLPHIN.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.WebApi\\DOLPHIN.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.WebApi\\DOLPHIN.WebApi.csproj",
         "projectName": "DOLPHIN.WebApi",
-        "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.WebApi\\DOLPHIN.WebApi.csproj",
+        "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.WebApi\\DOLPHIN.WebApi.csproj",
         "packagesPath": "C:\\Users\\h\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.WebApi\\obj\\",
+        "outputPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -574,26 +574,26 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj": {
-                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj"
+              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj": {
+                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj"
               },
-              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Exceptions\\DOLPHIN.Exceptions.csproj": {
-                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Exceptions\\DOLPHIN.Exceptions.csproj"
+              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Exceptions\\DOLPHIN.Exceptions.csproj": {
+                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Exceptions\\DOLPHIN.Exceptions.csproj"
               },
-              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj": {
-                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj"
+              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj": {
+                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj"
               },
-              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Mapping\\DOLPHIN.Mapping.csproj": {
-                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Mapping\\DOLPHIN.Mapping.csproj"
+              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Mapping\\DOLPHIN.Mapping.csproj": {
+                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Mapping\\DOLPHIN.Mapping.csproj"
               },
-              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj": {
-                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj"
+              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj": {
+                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj"
               },
-              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj": {
-                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj"
+              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj": {
+                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj"
               },
-              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Service\\DOLPHIN.Service.csproj": {
-                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Service\\DOLPHIN.Service.csproj"
+              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Service\\DOLPHIN.Service.csproj": {
+                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Service\\DOLPHIN.Service.csproj"
               }
             }
           }
@@ -657,14 +657,14 @@
         }
       }
     },
-    "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN\\DOLPHIN.csproj": {
+    "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN\\DOLPHIN.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN\\DOLPHIN.csproj",
+        "projectUniqueName": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN\\DOLPHIN.csproj",
         "projectName": "DOLPHIN",
-        "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN\\DOLPHIN.csproj",
+        "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN\\DOLPHIN.csproj",
         "packagesPath": "C:\\Users\\h\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN\\obj\\",
+        "outputPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -684,29 +684,29 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj": {
-                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj"
+              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj": {
+                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj"
               },
-              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Exceptions\\DOLPHIN.Exceptions.csproj": {
-                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Exceptions\\DOLPHIN.Exceptions.csproj"
+              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Exceptions\\DOLPHIN.Exceptions.csproj": {
+                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Exceptions\\DOLPHIN.Exceptions.csproj"
               },
-              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj": {
-                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj"
+              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj": {
+                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj"
               },
-              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Mapping\\DOLPHIN.Mapping.csproj": {
-                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Mapping\\DOLPHIN.Mapping.csproj"
+              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Mapping\\DOLPHIN.Mapping.csproj": {
+                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Mapping\\DOLPHIN.Mapping.csproj"
               },
-              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj": {
-                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj"
+              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj": {
+                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj"
               },
-              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj": {
-                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj"
+              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj": {
+                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj"
               },
-              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Service\\DOLPHIN.Service.csproj": {
-                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Service\\DOLPHIN.Service.csproj"
+              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Service\\DOLPHIN.Service.csproj": {
+                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Service\\DOLPHIN.Service.csproj"
               },
-              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.WebApi\\DOLPHIN.WebApi.csproj": {
-                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.WebApi\\DOLPHIN.WebApi.csproj"
+              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.WebApi\\DOLPHIN.WebApi.csproj": {
+                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.WebApi\\DOLPHIN.WebApi.csproj"
               }
             }
           }
@@ -733,7 +733,7 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.10, )"
+              "version": "[3.1.13, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
@@ -747,7 +747,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[3.1.4, )"
+              "version": "[3.1.5, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

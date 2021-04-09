@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MgxZdDxCLP7aYiUnCymNEY4Dxx4jex23M3smKN3FHPZe3EAX9gynvMoFlXnF0iLaUmbFD4JOf71ZgVYHY74idA==",
+  "dgSpecHash": "MQHbrUyGHnChb/Hvb01OvjKL/x7CO+Q+THB+dZMF3Fx9GnoTA6zGryFc1uYEF/uImfVifWC8NfCZH01J0MJ10Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.WebApi\\DOLPHIN.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.WebApi\\DOLPHIN.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\h\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
     "C:\\Users\\h\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

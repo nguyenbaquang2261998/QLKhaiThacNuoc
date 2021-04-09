@@ -17,5 +17,10 @@ namespace DOLPHIN.Model
         public string SoDienThoai { get; set; }
 
         public int MaNhanVienQuanLy { get; set; }
+
+        /// <summary>
+        /// Gets or sets.
+        /// </summary>
+        public virtual ICollection<ToChucSoGiaHan> ToChucSoGiaHan { get; set; }
     }
 }

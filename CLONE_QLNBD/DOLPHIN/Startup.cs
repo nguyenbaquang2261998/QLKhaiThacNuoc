@@ -30,7 +30,7 @@ namespace DOLPHIN
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
+        public IServiceProvider ConfigureServices(IServiceCollection services)
         {
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             services.AddMemoryCache();
@@ -58,7 +58,7 @@ namespace DOLPHIN
         //    builder.RegisterModule(new UnitOfWorkModule());
             builder.RegisterModule(new HelperModule());
             this.ApplicationContainer = builder.Build();
-           // return new AutofacServiceProvider(this.ApplicationContainer);
+            return new AutofacServiceProvider(this.ApplicationContainer);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

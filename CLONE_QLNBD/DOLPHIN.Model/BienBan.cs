@@ -16,7 +16,11 @@ namespace DOLPHIN.Model
 
         public DateTime NgayLapBienBan { get; set; }
 
-        public int MaToChucDaiDien { get; set; }
+        /// <summary>
+        /// Gets or sets.
+        /// </summary>
+        [ForeignKey("MaToChucDaiDien")]
+        public virtual ToChuc ToChuc { get; set; }
 
         public string ThongTinDonVi { get; set; }
 

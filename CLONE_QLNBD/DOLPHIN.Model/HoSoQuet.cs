@@ -14,7 +14,11 @@ namespace DOLPHIN.Model
 
         public string TenHoSo { get; set; }
 
-        public int MaCanBoThucHien { get; set; }
+        /// <summary>
+        /// Gets or sets.
+        /// </summary>
+        [ForeignKey("MaCanBoThucHien")]
+        public virtual CanBo CanBo { get; set; }
 
         public string NoiDung { get; set; }
 

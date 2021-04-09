@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jfNZZQ1NZI/6H8a71zYhCoy98Zx77KWyT11T7rIvR9Sc8QBQTFbDlfQR/XLC+/qaxx0KgSuP38JmgFJ+4AQDlw==",
+  "dgSpecHash": "UJup7XosPL3vPwZOs+AqsAcHujnyh3+l8S16rJHkx0RNyYyOiQe9z2qmKxxxKW/a9lz6GxB1NBQwkolo8F4XmQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj",
+  "projectFilePath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\h\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\h\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.0\\microsoft.aspnetcore.http.features.5.0.0.nupkg.sha512",

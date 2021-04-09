@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QFCz/d7oHYq2hZSEQQ0LDWlMWtpkJVf7+sQfPvZWpxH2XH9/AeyudTox0ZtzGXX1R7vPWDC5MUU1ByeiHBq/Og==",
+  "dgSpecHash": "4NLKdoxoG0Qv3iVnysrgGO7VWTSCh4V38NyW2ostqA2Wka63ucRi55s6no+G/o+D6E7daLraKxn2NzgC1NlN5Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj",
+  "projectFilePath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\h\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.0\\microsoft.aspnetcore.http.features.5.0.0.nupkg.sha512",
     "C:\\Users\\h\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

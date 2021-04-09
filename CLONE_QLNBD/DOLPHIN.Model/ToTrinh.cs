@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace DOLPHIN.Model
@@ -14,9 +15,17 @@ namespace DOLPHIN.Model
 
         public DateTime NgayTao { get; set; }
 
-        public int MaToChuc { get; set; }
+        /// <summary>
+        /// Gets or sets.
+        /// </summary>
+        [ForeignKey("MaToChuc")]
+        public virtual ToChuc ToChuc { get; set; }
 
-        public int MaDonViHanhChinh { get; set; }
+        /// <summary>
+        /// Gets or sets.
+        /// </summary>
+        [ForeignKey("MaDonViHanhChinh")]
+        public virtual DonViHanhChinh DonViHanhChinh { get; set; }
 
         public string MucDichKhaiThac { get; set; }
 
@@ -30,7 +39,11 @@ namespace DOLPHIN.Model
 
         public DateTime ThoiHanCapPhep { get; set; }
 
-        public int MaQuanTrac { get; set; }
+        /// <summary>
+        /// Gets or sets.
+        /// </summary>
+        [ForeignKey("MaQuanTrac")]
+        public virtual QuanTrac QuanTrac  { get; set; }
 
         public int SoLanCapNhat { get; set; }
 
@@ -42,5 +55,10 @@ namespace DOLPHIN.Model
         /// Gets or sets type: to trinh / giay phep
         /// </summary>
         public int Type { get; set; }
+
+        /// <summary>
+        /// Gets or sets.
+        /// </summary>
+        public virtual ICollection<GiayPhepSoGiaHan> GiayPhepSoGiaHan { get; set; }
     }
 }

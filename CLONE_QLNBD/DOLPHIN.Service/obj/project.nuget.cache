@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O1ThRlHGSpI/WwyORIL9+OW0wgEMdXI3rGMIWj4npceWKiCIYYXvAJSfR2gOXWJfpM7SA+Zo6YdlF52jaaYBCg==",
+  "dgSpecHash": "K8/TTjBtuO1NPAW4X/NKtFdSLmcMWQ1zG038Pddo62BEbe0Zi6vDwYI7Jr+zz1zkhLnJfJbZaVrXPAhKARO8AQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\CLONE_QLNBD\\DOLPHIN.Service\\DOLPHIN.Service.csproj",
+  "projectFilePath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Service\\DOLPHIN.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\h\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\h\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace DOLPHIN.Model
@@ -16,12 +17,20 @@ namespace DOLPHIN.Model
 
         public int MaViTri { get; set; }
 
-        public int MaCanBoQuanLy { get; set; }
+        /// <summary>
+        /// Gets or sets.
+        /// </summary>
+        [ForeignKey("MaCanBoQuanLy")]
+        public virtual CanBo CanBo { get; set; }
 
         public DateTime NgayThucHien { get; set; }
 
         public DateTime ThoiGianDuKien { get; set; }
 
-        public int MaGiayPhep { get; set; }
+        /// <summary>
+        /// Gets or sets.
+        /// </summary>
+        [ForeignKey("MaGiayPhep")]
+        public virtual ToTrinh ToTrinh { get; set; }
     }
 }

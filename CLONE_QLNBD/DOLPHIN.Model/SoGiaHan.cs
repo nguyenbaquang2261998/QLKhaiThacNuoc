@@ -19,5 +19,20 @@ namespace DOLPHIN.Model
         public DateTime ThoiGian { get; set; }
 
         public int TrangThai { get; set; }
+
+        /// <summary>
+        /// Gets or sets.
+        /// </summary>
+        public virtual ICollection<ToChucSoGiaHan> ToChucSoGiaHan { get; set; }
+
+        /// <summary>
+        /// Gets or sets.
+        /// </summary>
+        public virtual ICollection<GiayPhepSoGiaHan> GiayPhepSoGiaHan { get; set; }
+
+        /// <summary>
+        /// Gets or sets.
+        /// </summary>
+        public virtual ICollection<SoHieuSoGiaHan> SoHieuSoGiaHan { get; set; }
     }
 }

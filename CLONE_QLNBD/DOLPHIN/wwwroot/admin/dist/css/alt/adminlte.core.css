@@ -618,8 +618,6 @@ pre code {
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -7.5px;
-  margin-left: -7.5px;
 }
 
 .no-gutters {
@@ -4591,8 +4589,6 @@ input[type="button"].btn-block {
   .card-deck {
     display: flex;
     flex-flow: row wrap;
-    margin-right: -7.5px;
-    margin-left: -7.5px;
   }
   .card-deck .card {
     flex: 1 0 0%;
