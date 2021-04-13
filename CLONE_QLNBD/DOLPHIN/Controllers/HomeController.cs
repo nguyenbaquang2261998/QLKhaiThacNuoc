@@ -22,6 +22,10 @@ namespace DOLPHIN.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.ToTrinhIndex = this._context.ToTrinh.Count();
+            ViewBag.CongTrinhKhaiThacIndex = this._context.CongTrinhKhaiThac.Count();
+            ViewBag.CanBoQuanLyIndex = this._context.CanBo.Count();
+            ViewBag.GiaHanIndex = this._context.SoGiaHan.Count();
             return View();
         }
     }

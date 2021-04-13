@@ -1,4 +1,5 @@
-﻿using DOLPHIN.Model;
+﻿using DOLPHIN.DTO;
+using DOLPHIN.Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -25,7 +26,7 @@ namespace DOLPHIN.Controllers
                 .Include(x => x.ToTrinh)
                 .Include(cb => cb.CanBo)
                 .ToList();
-            return View();
+            return View(congTrinh);
         }
         public IActionResult Create()
         {
@@ -69,12 +70,48 @@ namespace DOLPHIN.Controllers
             return View();
         }
 
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var canBos = this._context.CanBo.ToList();
+            ViewBag.DMCanBo = new SelectList(canBos, "Id", "TenCanBo", null);
+
+            var giayPheps = this._context.ToTrinh.ToList();
+            ViewBag.DMGiayPhep = new SelectList(giayPheps, "Id", "Id", null);
+
+            var congTrinh = await _context.CongTrinhKhaiThac.FindAsync(id);
+            if (congTrinh == null)
+            {
+                return NotFound();
+            }
+
+            List<StatusDto> status = new List<StatusDto>();
+            var itemActive = new StatusDto()
+            {
+                Id = 0,
+                Status = "Đang khai thác"
+            };
+            var itemInActive = new StatusDto()
+            {
+                Id = 1,
+                Status = "Dừng khai thác"
+            };
+            status.Add(itemActive);
+            status.Add(itemInActive);
+            ViewBag.TrangThaiKhaiThac = new SelectList(status, "Id", "Status", null);
+            return View(congTrinh);
+        }
+
         // POST: Admin/Categories/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, ToTrinh requestData)
+        public async Task<IActionResult> Edit(int id, CongTrinhKhaiThac requestData)
         {
             if (id != requestData.Id)
             {
@@ -90,7 +127,7 @@ namespace DOLPHIN.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!ToTrinhExists(requestData.Id))
+                    if (!CongTrinhKhaiThacExists(requestData.Id))
                     {
                         return NotFound();
                     }
@@ -112,7 +149,7 @@ namespace DOLPHIN.Controllers
                 return NotFound();
             }
 
-            var og = await _context.ToTrinh
+            var og = await _context.CongTrinhKhaiThac
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (og == null)
             {
@@ -125,17 +162,17 @@ namespace DOLPHIN.Controllers
         // POST: Admin/Categories/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(Guid id)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var og = await _context.ToTrinh.FindAsync(id);
-            _context.ToTrinh.Remove(og);
+            var og = await _context.CongTrinhKhaiThac.FindAsync(id);
+            _context.CongTrinhKhaiThac.Remove(og);
             await _context.SaveChangesAsync();
-            return Redirect("/ToTrinh/Index");
+            return Redirect("/CongTrinhKhaiThac/Index");
         }
 
-        private bool ToTrinhExists(int id)
+        private bool CongTrinhKhaiThacExists(int id)
         {
-            return _context.ToTrinh.Any(e => e.Id == id);
+            return _context.CongTrinhKhaiThac.Any(e => e.Id == id);
         }
     }
 }

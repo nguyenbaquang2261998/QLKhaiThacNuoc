@@ -82,6 +82,9 @@ namespace DOLPHIN.Model.Migrations
                         .IsRequired()
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
 
+                    b.Property<int>("TrangThai")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.ToTable("CanBo");
@@ -96,13 +99,10 @@ namespace DOLPHIN.Model.Migrations
                     b.Property<string>("LoaiCongTrinh")
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
 
-                    b.Property<int?>("MaCanBoQuanLy")
+                    b.Property<int>("MaCanBoQuanLy")
                         .HasColumnType("int");
 
-                    b.Property<int?>("MaGiayPhep")
-                        .HasColumnType("int");
-
-                    b.Property<int>("MaViTri")
+                    b.Property<int>("MaGiayPhep")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("NgayThucHien")
@@ -113,6 +113,9 @@ namespace DOLPHIN.Model.Migrations
 
                     b.Property<DateTime>("ThoiGianDuKien")
                         .HasColumnType("datetime(6)");
+
+                    b.Property<int>("TrangThai")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -487,11 +490,15 @@ namespace DOLPHIN.Model.Migrations
                 {
                     b.HasOne("DOLPHIN.Model.CanBo", "CanBo")
                         .WithMany()
-                        .HasForeignKey("MaCanBoQuanLy");
+                        .HasForeignKey("MaCanBoQuanLy")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("DOLPHIN.Model.ToTrinh", "ToTrinh")
                         .WithMany()
-                        .HasForeignKey("MaGiayPhep");
+                        .HasForeignKey("MaGiayPhep")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("DOLPHIN.Model.GiayPhepSoGiaHan", b =>

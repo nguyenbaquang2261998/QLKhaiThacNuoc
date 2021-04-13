@@ -80,7 +80,7 @@ namespace DOLPHIN.Controllers
             return View(requestData);
         }
 
-        // GET: Admin/Categories/Edit/5
+        // Put: Update
         public async Task<IActionResult> Update(int? id)
         {
             if (id > 0 )

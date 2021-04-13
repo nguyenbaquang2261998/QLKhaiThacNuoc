@@ -15,26 +15,38 @@
                 <form method="post">
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                     <div class="form-group">
-                        <label asp-for="TenToChuc" class="control-label">Tên tổ chức</label>
-                        <input asp-for="TenToChuc" class="form-control" />
-                        <span asp-validation-for="TenToChuc" class="text-danger"></span>
+                        <label asp-for="TenCongTrinh" class="control-label">Tên công trình khai thác</label>
+                        <input asp-for="TenCongTrinh" class="form-control" />
+                        <span asp-validation-for="TenCongTrinh" class="text-danger"></span>
                     </div>
                     <div class="form-group">
-                        <label asp-for="DiaChi" class="control-label">Địa chỉ</label>
-                        <input asp-for="DiaChi" class="form-control" />
-                        <span asp-validation-for="DiaChi" class="text-danger"></span>
+                        <label asp-for="LoaiCongTrinh" class="control-label">Loại công trình khai thác</label>
+                        <input asp-for="LoaiCongTrinh" class="form-control" />
+                        <span asp-validation-for="LoaiCongTrinh" class="text-danger"></span>
                     </div>
                     <div class="form-group">
-                        <label asp-for="SoDienThoai" class="control-label">Số điện thoại</label>
-                        <input asp-for="SoDienThoai" class="form-control" />
-                        <span asp-validation-for="SoDienThoai" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="MaNhanVienQuanLy" class="control-label">Cán bộ quản lý</label>
-                        <select asp-for="MaNhanVienQuanLy"
+                        <label asp-for="MaCanBoQuanLy" class="control-label">Cán bộ quản lý</label>
+                        <select asp-for="MaCanBoQuanLy"
                                 asp-items="ViewBag.DMCanBo as SelectList">
                             <option>Chọn cán bộ quản lý</option>
                         </select>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="MaGiayPhep" class="control-label">Mã giấy phép khai thác</label>
+                        <select asp-for="MaGiayPhep"
+                                asp-items="ViewBag.DMGiayPhep as SelectList">
+                            <option>Chọn cán bộ quản lý</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="NgayThucHien" class="control-label">Ngày thực hiện</label>
+                        <input asp-for="NgayThucHien" class="form-control" />
+                        <span asp-validation-for="NgayThucHien" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ThoiGianDuKien" class="control-label">Thời gian dự kiến</label>
+                        <input asp-for="ThoiGianDuKien" class="form-control" />
+                        <span asp-validation-for="ThoiGianDuKien" class="text-danger"></span>
                     </div>
                     <div class="form-group">
                         <input type="submit" value="Create" class="btn btn-primary" />
@@ -46,6 +58,5 @@
 </div>
 
 <div>
-    <a href="/ToChuc/Index" class="btn btn-primary" style="margin-left:10px">Quay lại</a>
+    <a href="/CongTrinhKhaiThac/Index" class="btn btn-primary" style="margin-left:10px">Quay lại</a>
 </div>
-

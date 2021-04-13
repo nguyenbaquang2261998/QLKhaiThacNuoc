@@ -49,6 +49,21 @@ namespace DOLPHIN.Controllers
             return View(requestData);
         }
 
+        // Put: Update
+        public async Task<IActionResult> Update(int? id)
+        {
+            if (id > 0)
+            {
+                var canBo = this._context.CanBo.Where(x => x.Id == id).FirstOrDefault();
+                // Status : Nghỉ việc
+                canBo.TrangThai = 1;
+                _context.Update(canBo);
+                await _context.SaveChangesAsync();
+                return Redirect("/CanBo/Index");
+            }
+            return View();
+        }
+
         // GET: Admin/Categories/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {

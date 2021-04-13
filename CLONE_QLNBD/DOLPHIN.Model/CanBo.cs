@@ -22,5 +22,9 @@ namespace DOLPHIN.Model
 
         public string SoDienThoai { get; set; }
 
+        /// <summary>
+        /// Gets or sets : 0 : Còn làm việc / 1 : Nghỉ việc 
+        /// </summary>
+        public int TrangThai { get; set; }
     }
 }

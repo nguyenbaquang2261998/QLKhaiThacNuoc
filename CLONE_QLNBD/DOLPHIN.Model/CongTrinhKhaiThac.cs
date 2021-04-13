@@ -21,6 +21,7 @@ namespace DOLPHIN.Model
         [ForeignKey("MaCanBoQuanLy")]
         public virtual CanBo CanBo { get; set; }
 
+        public int MaCanBoQuanLy { get; set; }
         public DateTime NgayThucHien { get; set; }
 
         public DateTime ThoiGianDuKien { get; set; }
@@ -30,5 +31,12 @@ namespace DOLPHIN.Model
         /// </summary>
         [ForeignKey("MaGiayPhep")]
         public virtual ToTrinh ToTrinh { get; set; }
+
+        public int MaGiayPhep { get; set; }
+
+        /// <summary>
+        /// Gets or sets: 0: Đang khai thác / 1: Tạm dừng khai thác...
+        /// </summary>
+        public int TrangThai { get; set; }
     }
 }
