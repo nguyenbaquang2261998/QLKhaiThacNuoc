@@ -14,7 +14,7 @@ namespace DOLPHIN.Model.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "3.1.10")
+                .HasAnnotation("ProductVersion", "3.1.13")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
             modelBuilder.Entity("DOLPHIN.Model.BienBan", b =>
@@ -426,16 +426,13 @@ namespace DOLPHIN.Model.Migrations
                     b.Property<int>("LuongNuocKhaiThac")
                         .HasColumnType("int");
 
-                    b.Property<int?>("MaDonViHanhChinh")
+                    b.Property<int>("MaDonViHanhChinh")
                         .HasColumnType("int");
 
-                    b.Property<int?>("MaQuanTrac")
+                    b.Property<int>("MaQuanTrac")
                         .HasColumnType("int");
 
-                    b.Property<int?>("MaToChuc")
-                        .HasColumnType("int");
-
-                    b.Property<int>("MaViTriKhaiThac")
+                    b.Property<int>("MaToChuc")
                         .HasColumnType("int");
 
                     b.Property<string>("MucDichKhaiThac")
@@ -567,15 +564,21 @@ namespace DOLPHIN.Model.Migrations
                 {
                     b.HasOne("DOLPHIN.Model.DonViHanhChinh", "DonViHanhChinh")
                         .WithMany()
-                        .HasForeignKey("MaDonViHanhChinh");
+                        .HasForeignKey("MaDonViHanhChinh")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("DOLPHIN.Model.QuanTrac", "QuanTrac")
                         .WithMany()
-                        .HasForeignKey("MaQuanTrac");
+                        .HasForeignKey("MaQuanTrac")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("DOLPHIN.Model.ToChuc", "ToChuc")
                         .WithMany()
-                        .HasForeignKey("MaToChuc");
+                        .HasForeignKey("MaToChuc")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

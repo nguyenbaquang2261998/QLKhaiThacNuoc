@@ -9,10 +9,8 @@ namespace DOLPHIN.Mapping
     {
         public DtoProfile()
         {
-            this.CreateMap<CanBo, CategoriesDto>();
-            this.CreateMap<CategoriesDto, CanBo>();
-            this.CreateMap<UsersDto, ToTrinh>();
-            this.CreateMap<ToTrinh, UsersDto>();
+            this.CreateMap<ToTrinhDto, ToTrinh>();
+            this.CreateMap<ToTrinh, ToTrinhDto>();
         }
     }
 }

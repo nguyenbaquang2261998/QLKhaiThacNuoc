@@ -3,7 +3,7 @@
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<span class="badge bg-primary" style="font-size:20px ; margin-left:20px"><a href="/Admin/Products/Create">Thêm dự án mới</a></span>
+<span class="badge bg-primary" style="font-size:20px ; margin-left:20px"><a href="/CongTrinhKhaiThac/Create">Thêm dự án mới</a></span>
 <div class="card">
     <div class="card-header">
         <h3 class="card-title">Danh sách công trình khai thác nước dưới đất</h3>
@@ -35,7 +35,7 @@
                         Loại công trình
                     </th>
                     <th class="text-center">
-                        Vị trí
+                        Vị trí khai thác
                     </th>
                     <th class="text-center">
                         Cán bộ phụ trách
@@ -68,7 +68,7 @@
                             @Html.DisplayFor(modelItem => item.LoaiCongTrinh)
                         </td>
                         <td class="text-center">
-                            @Html.DisplayFor(modelItem => item.MaViTri)
+                            @Html.DisplayFor(modelItem => item.ToTrinh.DonViHanhChinh.TenDonViHanhChinh)
                         </td>
                         <td class="text-center">
                             @Html.DisplayFor(modelItem => item.CanBo.TenCanBo)
@@ -83,9 +83,9 @@
                             @Html.DisplayFor(modelItem => item.ToTrinh.Id)
                         </td>
                         <td class="text-center">
-                            <span class="badge bg-warning"><a href="/Admin/Products/Edit/@item.Id">Sửa</a></span>
-                            <span class="badge bg-success"><a href="/Admin/Products/Details/@item.Id">Chi tiết</a></span>
-                            <span class="badge bg-danger"><a href="/Admin/Products/Delete/@item.Id">Xóa</a></span>
+                            <span class="badge bg-warning"><a href="/CongTrinhKhaiThac/Edit/@item.Id">Sửa</a></span>
+                            <span class="badge bg-success"><a href="/CongTrinhKhaiThac/Details/@item.Id">Chi tiết</a></span>
+                            <span class="badge bg-danger"><a href="/CongTrinhKhaiThac/Delete/@item.Id">Xóa</a></span>
                         </td>
                     </tr>
                 }
@@ -93,7 +93,7 @@
         </table>
         <div class="row">
             <div class="col-sm-12 col-md-5">
-                <div class="dataTables_info" id="example2_info" role="status" aria-live="polite">Showing 1 to 10 of 57 entries</div>
+                <div class="dataTables_info" id="example2_info" role="status" aria-live="polite">Showing 1 to @Model.Count() entries</div>
             </div>
             <div class="col-sm-12 col-md-7">
                 <div class="dataTables_paginate paging_simple_numbers" id="example2_paginate">

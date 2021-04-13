@@ -1,5 +1,9 @@
-﻿using DOLPHIN.Model;
+﻿using AutoMapper;
+using DOLPHIN.DTO;
+using DOLPHIN.Model;
+using DOLPHIN.Repository.UnitOfWorks.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System;
@@ -12,18 +16,29 @@ namespace DOLPHIN.Controllers
     {
         private readonly ILogger<ToTrinhController> _logger;
         private readonly ApplicationDBContext _context;
-        public ToTrinhController(ILogger<ToTrinhController> logger, ApplicationDBContext context)
+        private readonly IMapper mapper;
+        public ToTrinhController(ILogger<ToTrinhController> logger, ApplicationDBContext context, IMapper mapper)
         {
             _logger = logger;
             _context = context;
+            this.mapper = mapper;
         }
         public IActionResult Index()
         {
-            var data = this._context.ToTrinh.ToList();
+            var data = this._context.ToTrinh
+                .Include(x => x.ToChuc)
+                .Include(vt => vt.DonViHanhChinh)
+                .ToList();
             return View(data);
         }
         public IActionResult Create()
         {
+            var toChucs = this._context.ToChuc.ToList();
+            ViewBag.DMToChuc = new SelectList(toChucs, "Id", "TenToChuc", null);
+
+            var donViHanhChinhs = this._context.DonViHanhChinh.ToList();
+            ViewBag.DMDonViHanhChinh = new SelectList(donViHanhChinhs, "Id", "TenDonViHanhChinh", null);
+
             return View();
         }
 
@@ -32,11 +47,33 @@ namespace DOLPHIN.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(ToTrinh requestData)
+        public async Task<IActionResult> Create(ToTrinhDto requestData)
         {
+            if (requestData.MaToChuc <= 0 || requestData.MaDonViHanhChinh <= 0)
+            {
+                throw new Exception();
+            }
+
             if (ModelState.IsValid)
             {
-                _context.Add(requestData);
+                // Tạo mẫu quan trắc
+                var quanTrac = new QuanTrac()
+                {
+                    MucNuocDong = requestData.MucNuocDong,
+                    MucNuocTinh = requestData.MucNuocTinh,
+                    LuuLuong = requestData.LuuLuongNuoc,
+                    ChatLuongNuoc = requestData.ChatLuongNuoc
+                };
+                _context.Add(quanTrac);
+                await _context.SaveChangesAsync();
+
+                // Tạo tờ trình
+                requestData.NgayTao = DateTime.Now;
+                requestData.MaQuanTrac = quanTrac.Id;
+
+                var model = this.mapper.Map<ToTrinh>(requestData);
+
+                _context.Add(model);
                 await _context.SaveChangesAsync();
                 return Redirect("/ToTrinh/Index");
             }
@@ -44,19 +81,18 @@ namespace DOLPHIN.Controllers
         }
 
         // GET: Admin/Categories/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Update(int? id)
         {
-            if (id == null)
+            if (id > 0 )
             {
-                return NotFound();
+                var toTrinh = this._context.ToTrinh.Where(x => x.Id == id).FirstOrDefault();
+                // Status : Da duyet.
+                toTrinh.TrangThai = 1;
+                _context.Update(toTrinh);
+                await _context.SaveChangesAsync();
+                return Redirect("/ToTrinh/Index");
             }
-
-            var og = await _context.ToTrinh.FindAsync(id);
-            if (og == null)
-            {
-                return NotFound();
-            }
-            return View(og);
+            return View();
         }
 
         // POST: Admin/Categories/Edit/5

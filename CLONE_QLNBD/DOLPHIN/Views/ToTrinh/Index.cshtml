@@ -47,6 +47,9 @@
                         Ngày ban hành
                     </th>
                     <th class="text-center">
+                        Trạng thái
+                    </th>
+                    <th class="text-center">
                         Thao tác
                     </th>
                 </tr>
@@ -65,16 +68,32 @@
                             @Html.DisplayFor(modelItem => item.NgayTao) 
                         </td>
                         <td class="text-center">
-                            @Html.DisplayFor(modelItem => item.ToChuc) 
+                            @Html.DisplayFor(modelItem => item.ToChuc.TenToChuc) 
                         </td>
                         <td class="text-center">
-                            @Html.DisplayFor(modelItem => item.MaViTriKhaiThac) 
+                            @Html.DisplayFor(modelItem => item.DonViHanhChinh.TenDonViHanhChinh) 
+                        </td>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.TangChuaNuocKhaiThac) 
                         </td>
                         <td class="text-center">
                             @Html.DisplayFor(modelItem => item.NgayBanHanh) 
                         </td>
                         <td class="text-center">
-                            <span class="badge bg-warning"><a href="/ToTrinh/Edit/@item.Id">Sửa</a></span>
+                            @if (item.TrangThai == 0)
+                            {
+                                <span class="badge bg-warning">Chờ duyệt</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-success">Đã duyệt</span>
+                            }
+                        </td>
+                        <td class="text-center">
+                            @if (item.TrangThai == 0)
+                            {
+                                <span class="badge bg-warning"><a href="/ToTrinh/Update/@item.Id">Xử lý</a></span>
+                            }
                             <span class="badge bg-success"><a href="/ToTrinh/Details/@item.Id">Chi tiết</a></span>
                             <span class="badge bg-danger"><a href="/ToTrinh/Delete/@item.Id">Xóa</a></span>
                         </td>
@@ -84,7 +103,7 @@
         </table>
         <div class="row">
             <div class="col-sm-12 col-md-5">
-                <div class="dataTables_info" id="example2_info" role="status" aria-live="polite">Showing 1 to 10 of 57 entries</div>
+                <div class="dataTables_info" id="example2_info" role="status" aria-live="polite">Showing 1 to @Model.Count() entries</div>
             </div>
             <div class="col-sm-12 col-md-7">
                 <div class="dataTables_paginate paging_simple_numbers" id="example2_paginate">

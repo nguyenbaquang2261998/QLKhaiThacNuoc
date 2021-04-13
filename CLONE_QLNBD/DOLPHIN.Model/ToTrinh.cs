@@ -21,15 +21,17 @@ namespace DOLPHIN.Model
         [ForeignKey("MaToChuc")]
         public virtual ToChuc ToChuc { get; set; }
 
+        public int MaToChuc { get; set; }
+
         /// <summary>
         /// Gets or sets.
         /// </summary>
         [ForeignKey("MaDonViHanhChinh")]
         public virtual DonViHanhChinh DonViHanhChinh { get; set; }
 
-        public string MucDichKhaiThac { get; set; }
+        public int MaDonViHanhChinh { get; set; }
 
-        public int MaViTriKhaiThac { get; set; }
+        public string MucDichKhaiThac { get; set; }
 
         public int TangChuaNuocKhaiThac { get; set; }
 
@@ -44,6 +46,8 @@ namespace DOLPHIN.Model
         /// </summary>
         [ForeignKey("MaQuanTrac")]
         public virtual QuanTrac QuanTrac  { get; set; }
+
+        public int MaQuanTrac { get; set; }
 
         public int SoLanCapNhat { get; set; }
 

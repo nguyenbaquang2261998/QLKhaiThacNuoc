@@ -15,8 +15,6 @@ namespace DOLPHIN.Model
 
         public string LoaiCongTrinh { get; set; }
 
-        public int MaViTri { get; set; }
-
         /// <summary>
         /// Gets or sets.
         /// </summary>
