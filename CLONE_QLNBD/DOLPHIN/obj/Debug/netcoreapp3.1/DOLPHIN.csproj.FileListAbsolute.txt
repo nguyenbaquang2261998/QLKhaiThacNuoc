@@ -2206,3 +2206,6 @@ C:\Users\h\Desktop\QL_KHAI_THAC_NƯỚC\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN\obj\D
 C:\Users\h\Desktop\QL_KHAI_THAC_NƯỚC\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN\obj\Debug\netcoreapp3.1\Razor\Views\CanBo\Edit.cshtml.g.cs
 C:\Users\h\Desktop\QL_KHAI_THAC_NƯỚC\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN\obj\Debug\netcoreapp3.1\Razor\Views\DonViHanhChinh\Edit.cshtml.g.cs
 C:\Users\h\Desktop\QL_KHAI_THAC_NƯỚC\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN\obj\Debug\netcoreapp3.1\Razor\Views\CongTrinhKhaiThac\Edit.cshtml.g.cs
+C:\Users\h\Desktop\QL_KHAI_THAC_NƯỚC\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Document.cshtml.g.cs
+C:\Users\h\Desktop\QL_KHAI_THAC_NƯỚC\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN\obj\Debug\netcoreapp3.1\Razor\Views\Document\Index.cshtml.g.cs
+C:\Users\h\Desktop\QL_KHAI_THAC_NƯỚC\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs

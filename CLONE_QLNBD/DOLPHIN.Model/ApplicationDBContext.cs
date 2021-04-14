@@ -29,6 +29,7 @@ namespace DOLPHIN.Model
         public virtual DbSet<SoHieu> SoHieu { get; set; }
         public virtual DbSet<SoGiaHan> SoGiaHan { get; set; }
         public virtual DbSet<CongTrinhKhaiThac> CongTrinhKhaiThac { get; set; }
+        public virtual DbSet<Account> Account { get; set; }
         protected IConfiguration Configs { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
