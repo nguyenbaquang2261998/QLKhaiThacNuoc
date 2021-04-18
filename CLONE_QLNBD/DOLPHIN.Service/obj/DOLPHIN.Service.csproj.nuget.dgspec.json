@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Service\\DOLPHIN.Service.csproj": {}
+    "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Service\\DOLPHIN.Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj": {
+    "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj",
         "projectName": "DOLPHIN.DTO",
-        "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj",
-        "packagesPath": "C:\\Users\\h\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\obj\\",
+        "projectPath": "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj",
+        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\h\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj": {
-                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj"
+              "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj": {
+                "projectPath": "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj"
               }
             }
           }
@@ -73,24 +70,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj": {
+    "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj",
+        "projectUniqueName": "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj",
         "projectName": "DOLPHIN.Helpers",
-        "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj",
-        "packagesPath": "C:\\Users\\h\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\obj\\",
+        "projectPath": "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj",
+        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\h\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -104,8 +98,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj": {
-                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj"
+              "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj": {
+                "projectPath": "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj"
               }
             }
           }
@@ -144,24 +138,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj": {
+    "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj",
+        "projectUniqueName": "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj",
         "projectName": "DOLPHIN.Model",
-        "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj",
-        "packagesPath": "C:\\Users\\h\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\obj\\",
+        "projectPath": "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj",
+        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\h\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -231,24 +222,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj": {
+    "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj",
         "projectName": "DOLPHIN.Repository",
-        "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj",
-        "packagesPath": "C:\\Users\\h\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\obj\\",
+        "projectPath": "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj",
+        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\h\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -262,8 +250,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj": {
-                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj"
+              "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj": {
+                "projectPath": "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj"
               }
             }
           }
@@ -322,24 +310,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Service\\DOLPHIN.Service.csproj": {
+    "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Service\\DOLPHIN.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Service\\DOLPHIN.Service.csproj",
+        "projectUniqueName": "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Service\\DOLPHIN.Service.csproj",
         "projectName": "DOLPHIN.Service",
-        "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Service\\DOLPHIN.Service.csproj",
-        "packagesPath": "C:\\Users\\h\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Service\\obj\\",
+        "projectPath": "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Service\\DOLPHIN.Service.csproj",
+        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Service\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\h\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -353,17 +338,17 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj": {
-                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj"
+              "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj": {
+                "projectPath": "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj"
               },
-              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj": {
-                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj"
+              "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj": {
+                "projectPath": "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj"
               },
-              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj": {
-                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj"
+              "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj": {
+                "projectPath": "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj"
               },
-              "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj": {
-                "projectPath": "C:\\Users\\h\\Desktop\\QL_KHAI_THAC_NƯỚC\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj"
+              "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj": {
+                "projectPath": "C:\\Users\\nguye\\OneDrive\\Documents\\Máy tính\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj"
               }
             }
           }
@@ -410,7 +395,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

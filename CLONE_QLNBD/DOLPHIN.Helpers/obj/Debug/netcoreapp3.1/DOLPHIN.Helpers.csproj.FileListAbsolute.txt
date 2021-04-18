@@ -114,3 +114,17 @@ C:\Users\h\Desktop\QL_KHAI_THAC_NƯỚC\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Helpe
 C:\Users\h\Desktop\QL_KHAI_THAC_NƯỚC\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Helpers\obj\Debug\netcoreapp3.1\DOLPHIN.Helpers.csproj.CopyComplete
 C:\Users\h\Desktop\QL_KHAI_THAC_NƯỚC\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Helpers\obj\Debug\netcoreapp3.1\DOLPHIN.Helpers.dll
 C:\Users\h\Desktop\QL_KHAI_THAC_NƯỚC\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Helpers\obj\Debug\netcoreapp3.1\DOLPHIN.Helpers.pdb
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Helpers\bin\Debug\netcoreapp3.1\DOLPHIN.Helpers.deps.json
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Helpers\bin\Debug\netcoreapp3.1\DOLPHIN.Helpers.dll
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Helpers\bin\Debug\netcoreapp3.1\DOLPHIN.Helpers.pdb
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Helpers\bin\Debug\netcoreapp3.1\DOLPHIN.DTO.dll
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Helpers\bin\Debug\netcoreapp3.1\DOLPHIN.Model.dll
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Helpers\bin\Debug\netcoreapp3.1\DOLPHIN.DTO.pdb
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Helpers\bin\Debug\netcoreapp3.1\DOLPHIN.Model.pdb
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Helpers\obj\Debug\netcoreapp3.1\DOLPHIN.Helpers.csprojAssemblyReference.cache
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Helpers\obj\Debug\netcoreapp3.1\DOLPHIN.Helpers.AssemblyInfoInputs.cache
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Helpers\obj\Debug\netcoreapp3.1\DOLPHIN.Helpers.AssemblyInfo.cs
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Helpers\obj\Debug\netcoreapp3.1\DOLPHIN.Helpers.csproj.CoreCompileInputs.cache
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Helpers\obj\Debug\netcoreapp3.1\DOLPHIN.Helpers.csproj.CopyComplete
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Helpers\obj\Debug\netcoreapp3.1\DOLPHIN.Helpers.dll
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Helpers\obj\Debug\netcoreapp3.1\DOLPHIN.Helpers.pdb

@@ -133,25 +133,22 @@ namespace DOLPHIN.Controllers
         // GET: Admin/Categories/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null)
+            if (id > 0)
             {
-                return NotFound();
+                var toTrinh = this._context.ToTrinh.Where(x => x.Id == id).FirstOrDefault();
+                // Status : Hủy
+                toTrinh.TrangThai = 2;
+                _context.Update(toTrinh);
+                await _context.SaveChangesAsync();
+                return Redirect("/ToTrinh/Index");
             }
-
-            var og = await _context.ToTrinh
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (og == null)
-            {
-                return NotFound();
-            }
-
-            return View(og);
+            return View();
         }
 
         // POST: Admin/Categories/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(Guid id)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var og = await _context.ToTrinh.FindAsync(id);
             _context.ToTrinh.Remove(og);

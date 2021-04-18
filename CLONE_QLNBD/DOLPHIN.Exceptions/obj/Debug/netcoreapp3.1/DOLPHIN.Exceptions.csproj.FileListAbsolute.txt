@@ -79,3 +79,12 @@ C:\Users\h\Desktop\QL_KHAI_THAC_NƯỚC\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Excep
 C:\Users\h\Desktop\QL_KHAI_THAC_NƯỚC\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Exceptions\obj\Debug\netcoreapp3.1\DOLPHIN.Exceptions.csproj.CoreCompileInputs.cache
 C:\Users\h\Desktop\QL_KHAI_THAC_NƯỚC\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Exceptions\obj\Debug\netcoreapp3.1\DOLPHIN.Exceptions.dll
 C:\Users\h\Desktop\QL_KHAI_THAC_NƯỚC\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Exceptions\obj\Debug\netcoreapp3.1\DOLPHIN.Exceptions.pdb
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Exceptions\bin\Debug\netcoreapp3.1\DOLPHIN.Exceptions.deps.json
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Exceptions\bin\Debug\netcoreapp3.1\DOLPHIN.Exceptions.dll
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Exceptions\bin\Debug\netcoreapp3.1\DOLPHIN.Exceptions.pdb
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Exceptions\obj\Debug\netcoreapp3.1\DOLPHIN.Exceptions.csprojAssemblyReference.cache
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Exceptions\obj\Debug\netcoreapp3.1\DOLPHIN.Exceptions.AssemblyInfoInputs.cache
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Exceptions\obj\Debug\netcoreapp3.1\DOLPHIN.Exceptions.AssemblyInfo.cs
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Exceptions\obj\Debug\netcoreapp3.1\DOLPHIN.Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Exceptions\obj\Debug\netcoreapp3.1\DOLPHIN.Exceptions.dll
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Exceptions\obj\Debug\netcoreapp3.1\DOLPHIN.Exceptions.pdb

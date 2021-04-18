@@ -59,6 +59,8 @@ namespace DOLPHIN.Controllers
             {
                 return NotFound();
             }
+            var canBo = this._context.CanBo.ToList();
+            ViewBag.DMCanBo = new SelectList(canBo, "Id", "TenCanBo", null);
 
             var og = await _context.ToChuc.FindAsync(id);
             if (og == null)
@@ -124,7 +126,7 @@ namespace DOLPHIN.Controllers
         // POST: Admin/Categories/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(Guid id)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var og = await _context.ToChuc.FindAsync(id);
             _context.ToChuc.Remove(og);

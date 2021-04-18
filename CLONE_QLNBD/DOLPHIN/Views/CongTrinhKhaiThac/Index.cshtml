@@ -47,6 +47,9 @@
                         Mã giấy phép
                     </th>
                     <th class="text-center">
+                        Trạng thái
+                    </th>
+                    <th class="text-center">
                         Thao tác
                     </th>
                 </tr>
@@ -77,9 +80,25 @@
                             @Html.DisplayFor(modelItem => item.ToTrinh.Id)
                         </td>
                         <td class="text-center">
-                            <span class="badge bg-warning"><a href="/CongTrinhKhaiThac/Edit/@item.Id">Sửa</a></span>
-                            <span class="badge bg-success"><a href="/CongTrinhKhaiThac/Details/@item.Id">Chi tiết</a></span>
-                            <span class="badge bg-danger"><a href="/CongTrinhKhaiThac/Delete/@item.Id">Xóa</a></span>
+                            @if (item.TrangThai == 0)
+                            {
+                                <span class="badge bg-warning">Đang khai thác</span>
+                            }
+                            @if (item.TrangThai == 1)
+                            {
+                                <span class="badge bg-success">Tạm dừng</span>
+                            }
+                            @if (item.TrangThai == 2)
+                            {
+                                <span class="badge bg-danger">Ngừng khai thác</span>
+                            }
+                        </td>
+                        <td class="text-center">
+                            <span class="badge bg-success"><a href="/CongTrinhKhaiThac/Edit/@item.Id">Sửa</a></span>
+                            @if (item.TrangThai != 2)
+                            {
+                                <span class="badge bg-danger"><a href="/CongTrinhKhaiThac/Delete/@item.Id">Xóa</a></span>
+                            }
                         </td>
                     </tr>
                 }

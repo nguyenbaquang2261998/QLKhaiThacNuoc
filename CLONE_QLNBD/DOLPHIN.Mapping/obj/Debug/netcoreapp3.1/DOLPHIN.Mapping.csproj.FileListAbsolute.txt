@@ -162,3 +162,20 @@ C:\Users\h\Desktop\QL_KHAI_THAC_NƯỚC\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Mappi
 C:\Users\h\Desktop\QL_KHAI_THAC_NƯỚC\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Mapping\obj\Debug\netcoreapp3.1\DOLPHIN.Mapping.dll
 C:\Users\h\Desktop\QL_KHAI_THAC_NƯỚC\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Mapping\obj\Debug\netcoreapp3.1\DOLPHIN.Mapping.pdb
 C:\Users\h\Desktop\QL_KHAI_THAC_NƯỚC\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Mapping\obj\Debug\netcoreapp3.1\DOLPHIN.Mapping.genruntimeconfig.cache
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Mapping\bin\Debug\netcoreapp3.1\DOLPHIN.Mapping.deps.json
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Mapping\bin\Debug\netcoreapp3.1\DOLPHIN.Mapping.runtimeconfig.json
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Mapping\bin\Debug\netcoreapp3.1\DOLPHIN.Mapping.runtimeconfig.dev.json
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Mapping\bin\Debug\netcoreapp3.1\DOLPHIN.Mapping.dll
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Mapping\bin\Debug\netcoreapp3.1\DOLPHIN.Mapping.pdb
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Mapping\bin\Debug\netcoreapp3.1\DOLPHIN.DTO.dll
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Mapping\bin\Debug\netcoreapp3.1\DOLPHIN.Model.dll
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Mapping\bin\Debug\netcoreapp3.1\DOLPHIN.DTO.pdb
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Mapping\bin\Debug\netcoreapp3.1\DOLPHIN.Model.pdb
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Mapping\obj\Debug\netcoreapp3.1\DOLPHIN.Mapping.csprojAssemblyReference.cache
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Mapping\obj\Debug\netcoreapp3.1\DOLPHIN.Mapping.AssemblyInfoInputs.cache
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Mapping\obj\Debug\netcoreapp3.1\DOLPHIN.Mapping.AssemblyInfo.cs
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Mapping\obj\Debug\netcoreapp3.1\DOLPHIN.Mapping.csproj.CoreCompileInputs.cache
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Mapping\obj\Debug\netcoreapp3.1\DOLPHIN.Mapping.csproj.CopyComplete
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Mapping\obj\Debug\netcoreapp3.1\DOLPHIN.Mapping.dll
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Mapping\obj\Debug\netcoreapp3.1\DOLPHIN.Mapping.pdb
+C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN.Mapping\obj\Debug\netcoreapp3.1\DOLPHIN.Mapping.genruntimeconfig.cache

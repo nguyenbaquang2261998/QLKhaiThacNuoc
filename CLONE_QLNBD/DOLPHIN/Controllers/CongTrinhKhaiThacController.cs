@@ -144,19 +144,16 @@ namespace DOLPHIN.Controllers
         // GET: Admin/Categories/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null)
+            if (id > 0)
             {
-                return NotFound();
+                var congTrinh = this._context.CongTrinhKhaiThac.Where(x => x.Id == id).FirstOrDefault();
+                // Status : Ngừng khai thác
+                congTrinh.TrangThai = 2;
+                _context.Update(congTrinh);
+                await _context.SaveChangesAsync();
+                return Redirect("/CongTrinhKhaiThac/Index");
             }
-
-            var og = await _context.CongTrinhKhaiThac
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (og == null)
-            {
-                return NotFound();
-            }
-
-            return View(og);
+            return View();
         }
 
         // POST: Admin/Categories/Delete/5

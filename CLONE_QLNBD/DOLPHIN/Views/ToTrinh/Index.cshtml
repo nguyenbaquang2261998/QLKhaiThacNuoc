@@ -84,18 +84,21 @@
                             {
                                 <span class="badge bg-warning">Chờ duyệt</span>
                             }
-                            else
+                            @if (item.TrangThai == 1)
                             {
                                 <span class="badge bg-success">Đã duyệt</span>
+                            }
+                            @if (item.TrangThai == 2)
+                            {
+                                <span class="badge bg-danger">Hủy</span>
                             }
                         </td>
                         <td class="text-center">
                             @if (item.TrangThai == 0)
                             {
                                 <span class="badge bg-warning"><a href="/ToTrinh/Update/@item.Id">Xử lý</a></span>
+                                <span class="badge bg-danger"><a href="/ToTrinh/Delete/@item.Id">Xóa</a></span>
                             }
-                            <span class="badge bg-success"><a href="/ToTrinh/Details/@item.Id">Chi tiết</a></span>
-                            <span class="badge bg-danger"><a href="/ToTrinh/Delete/@item.Id">Xóa</a></span>
                         </td>
                     </tr>
                 }
