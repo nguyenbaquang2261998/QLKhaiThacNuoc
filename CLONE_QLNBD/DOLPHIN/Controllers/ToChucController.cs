@@ -134,6 +134,14 @@ namespace DOLPHIN.Controllers
             return Redirect("/ToChuc/Index");
         }
 
+        [HttpPost, ActionName("Search")]
+        [ValidateAntiForgeryToken]
+        public IActionResult Search(string name)
+        {
+            var og = this._context.ToChuc.Where(x=> x.TenToChuc.Contains(name)).ToList();
+            return View(og);
+        }
+
         private bool ToChucExists(int id)
         {
             return _context.ToChuc.Any(e => e.Id == id);

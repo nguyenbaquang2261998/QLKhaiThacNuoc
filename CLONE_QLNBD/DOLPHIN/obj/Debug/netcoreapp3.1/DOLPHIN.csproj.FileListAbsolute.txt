@@ -2444,3 +2444,12 @@ C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN\
 C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN\obj\Debug\netcoreapp3.1\Razor\Views\ToChuc\Delete.cshtml.g.cs
 C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN\obj\Debug\netcoreapp3.1\Razor\Views\ToChuc\Edit.cshtml.g.cs
 C:\Users\nguye\OneDrive\Documents\Máy tính\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN\obj\Debug\netcoreapp3.1\Razor\Views\ToTrinh\Delete.cshtml.g.cs
+C:\Users\h\Desktop\QL_KHAI_THAC_NƯỚC\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN\obj\Debug\netcoreapp3.1\Razor\Views\DonViHanhChinh\Delete.cshtml.g.cs
+C:\Users\h\Desktop\QL_KHAI_THAC_NƯỚC\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN\obj\Debug\netcoreapp3.1\Razor\Views\ToChuc\Delete.cshtml.g.cs
+C:\Users\h\Desktop\QL_KHAI_THAC_NƯỚC\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN\obj\Debug\netcoreapp3.1\Razor\Views\ToChuc\Edit.cshtml.g.cs
+C:\Users\h\Desktop\QL_KHAI_THAC_NƯỚC\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN\obj\Debug\netcoreapp3.1\Razor\Views\ToTrinh\Delete.cshtml.g.cs
+C:\Users\h\Desktop\QL_KHAI_THAC_NƯỚC\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN\obj\Debug\netcoreapp3.1\Razor\Views\ToChuc\Search.cshtml.g.cs
+C:\Users\h\Desktop\QL_KHAI_THAC_NƯỚC\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN\obj\Debug\netcoreapp3.1\Razor\Views\CanBo\Search.cshtml.g.cs
+C:\Users\h\Desktop\QL_KHAI_THAC_NƯỚC\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN\obj\Debug\netcoreapp3.1\Razor\Views\CongTrinhKhaiThac\Search.cshtml.g.cs
+C:\Users\h\Desktop\QL_KHAI_THAC_NƯỚC\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN\obj\Debug\netcoreapp3.1\Razor\Views\DonViHanhChinh\Search.cshtml.g.cs
+C:\Users\h\Desktop\QL_KHAI_THAC_NƯỚC\QLKhaiThacNuoc\CLONE_QLNBD\DOLPHIN\obj\Debug\netcoreapp3.1\Razor\Views\ToTrinh\Search.cshtml.g.cs

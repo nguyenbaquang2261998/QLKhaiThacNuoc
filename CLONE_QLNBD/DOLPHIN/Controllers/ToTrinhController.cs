@@ -31,6 +31,17 @@ namespace DOLPHIN.Controllers
                 .ToList();
             return View(data);
         }
+
+        [HttpPost, ActionName("Search")]
+        [ValidateAntiForgeryToken]
+        public IActionResult Search(string name)
+        {
+            var og = this._context.ToTrinh.Where(x => x.TenToTrinh.Contains(name))
+                .Include(x => x.ToChuc)
+                .Include(vt => vt.DonViHanhChinh)
+                .ToList();
+            return View(og);
+        }
         public IActionResult Create()
         {
             var toChucs = this._context.ToChuc.ToList();

@@ -1,0 +1,70 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model IEnumerable<DOLPHIN.Model.DonViHanhChinh>
+@{
+    ViewData["Title"] = "Search";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">Danh sách đơn vị hành chính tỉnh Bình Dương</h3>
+
+        <div class="card-tools">
+            @using (Html.BeginForm("Search", "DonViHanhChinh", FormMethod.Post))
+            {
+                <p>
+                    @Html.TextBox("name") <input type="submit" value="Tìm kiếm" />
+                </p>
+            }
+        </div>
+    </div>
+    <!-- /.card-header -->
+    <div class="card-body table-responsive p-0">
+        <table class="table table-hover text-nowrap">
+            <thead>
+                <tr>
+                    <th class="text-center">
+                        Mã đơn vị
+                    </th>
+                    <th class="text-center">
+                        Tên xã, phường, thị trấn
+                    </th>
+                    <th class="text-center">
+                        Tọa độ
+                    </th>
+                    <th class="text-center">
+                        Thao tác
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.Id)
+                        </td>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.TenDonViHanhChinh)
+                        </td>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.ToaDo)
+                        <td class="text-center">
+                            <span class="badge bg-warning"><a href="/DonViHanhChinh/Edit/@item.Id">Sửa</a></span>
+                            <span class="badge bg-danger"><a href="/DonViHanhChinh/Delete/@item.Id">Xóa</a></span>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <div class="row">
+            <div class="col-sm-12 col-md-5">
+                <div class="dataTables_info" id="example2_info" role="status" aria-live="polite">Hiển thị : @Model.Count() bản ghi</div>
+            </div>
+        </div>
+    </div>
+    <!-- /.card-body -->
+</div>

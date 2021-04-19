@@ -28,6 +28,18 @@ namespace DOLPHIN.Controllers
                 .ToList();
             return View(congTrinh);
         }
+
+        [HttpPost, ActionName("Search")]
+        [ValidateAntiForgeryToken]
+        public IActionResult Search(string name)
+        {
+            var og = this._context.CongTrinhKhaiThac.Where(x => x.TenCongTrinh.Contains(name))
+                .Include(x => x.ToTrinh)
+                .Include(cb => cb.CanBo)
+                .ToList();
+            return View(og);
+        }
+
         public IActionResult Create()
         {
             var canBos = this._context.CanBo.ToList();

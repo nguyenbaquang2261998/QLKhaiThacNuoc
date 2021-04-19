@@ -41,6 +41,8 @@ namespace DOLPHIN.Controllers
                         userId = obj.UserId.ToString();
                         var userName = HttpContext.Session.GetString("UserName");
                         userName = obj.UserName.ToString();
+                        var userRole = HttpContext.Session.GetString("UserRole");
+                        userRole = obj.Role.ToString();
                         return Redirect("/Home/Index");
                     }
                 }

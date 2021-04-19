@@ -23,6 +23,14 @@ namespace DOLPHIN.Controllers
             var donViHanhChinh = this._context.DonViHanhChinh.ToList();
             return View(donViHanhChinh);
         }
+
+        [HttpPost, ActionName("Search")]
+        [ValidateAntiForgeryToken]
+        public IActionResult Search(string name)
+        {
+            var donViHanhChinh = this._context.DonViHanhChinh.Where(x => x.TenDonViHanhChinh.Contains(name)).ToList();
+            return View(donViHanhChinh);
+        }
         public IActionResult Create()
         {
             return View();

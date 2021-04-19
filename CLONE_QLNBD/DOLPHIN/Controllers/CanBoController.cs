@@ -144,6 +144,14 @@ namespace DOLPHIN.Controllers
             return Redirect("/CanBo/Index");
         }
 
+        [HttpPost, ActionName("Search")]
+        [ValidateAntiForgeryToken]
+        public IActionResult Search(string name)
+        {
+            var og = this._context.CanBo.Where(x => x.TenCanBo.Contains(name)).ToList();
+            return View(og);
+        }
+
         private bool CanBoExists(int id)
         {
             return _context.CanBo.Any(e => e.Id == id);

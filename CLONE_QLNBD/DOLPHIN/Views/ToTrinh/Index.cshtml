@@ -9,15 +9,12 @@
         <h3 class="card-title">Danh sách tờ trình</h3>
 
         <div class="card-tools">
-            <div class="input-group input-group-sm" style="width: 150px;">
-                <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
-
-                <div class="input-group-append">
-                    <button type="submit" class="btn btn-default">
-                        <i class="fas fa-search"></i>
-                    </button>
-                </div>
-            </div>
+            @using (Html.BeginForm("Search", "ToTrinh", FormMethod.Post))
+            {
+                <p>
+                    @Html.TextBox("name") <input type="submit" value="Tìm kiếm" />
+                </p>
+            }
         </div>
     </div>
     <!-- /.card-header -->
