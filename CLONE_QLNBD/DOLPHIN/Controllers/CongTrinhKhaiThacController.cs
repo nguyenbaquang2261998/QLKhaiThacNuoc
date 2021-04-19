@@ -1,5 +1,6 @@
 ﻿using DOLPHIN.DTO;
 using DOLPHIN.Model;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -22,6 +23,11 @@ namespace DOLPHIN.Controllers
         }
         public IActionResult Index()
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            if (role == null)
+            {
+                return Redirect("/Login/Index");
+            }
             var congTrinh = this._context.CongTrinhKhaiThac
                 .Include(x => x.ToTrinh)
                 .Include(cb => cb.CanBo)
@@ -42,6 +48,11 @@ namespace DOLPHIN.Controllers
 
         public IActionResult Create()
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            if (role == null)
+            {
+                return Redirect("/Login/Index");
+            }
             var canBos = this._context.CanBo.ToList();
             ViewBag.DMCanBo = new SelectList(canBos, "Id", "TenCanBo", null);
 
@@ -70,6 +81,11 @@ namespace DOLPHIN.Controllers
         // GET: Admin/Categories/Edit/5
         public async Task<IActionResult> Update(int? id)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            if (role == null)
+            {
+                return Redirect("/Login/Index");
+            }
             if (id > 0)
             {
                 var toTrinh = this._context.ToTrinh.Where(x => x.Id == id).FirstOrDefault();
@@ -84,6 +100,11 @@ namespace DOLPHIN.Controllers
 
         public async Task<IActionResult> Edit(int? id)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            if (role == null)
+            {
+                return Redirect("/Login/Index");
+            }
             if (id == null)
             {
                 return NotFound();
@@ -156,6 +177,11 @@ namespace DOLPHIN.Controllers
         // GET: Admin/Categories/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            if (role == null)
+            {
+                return Redirect("/Login/Index");
+            }
             if (id > 0)
             {
                 var congTrinh = this._context.CongTrinhKhaiThac.Where(x => x.Id == id).FirstOrDefault();

@@ -2,6 +2,7 @@
 using DOLPHIN.DTO;
 using DOLPHIN.Model;
 using DOLPHIN.Repository.UnitOfWorks.Interfaces;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -25,6 +26,11 @@ namespace DOLPHIN.Controllers
         }
         public IActionResult Index()
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            if (role == null)
+            {
+                return Redirect("/Login/Index");
+            }
             var data = this._context.ToTrinh
                 .Include(x => x.ToChuc)
                 .Include(vt => vt.DonViHanhChinh)
@@ -36,6 +42,11 @@ namespace DOLPHIN.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Search(string name)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            if (role == null)
+            {
+                return Redirect("/Login/Index");
+            }
             var og = this._context.ToTrinh.Where(x => x.TenToTrinh.Contains(name))
                 .Include(x => x.ToChuc)
                 .Include(vt => vt.DonViHanhChinh)
@@ -44,6 +55,11 @@ namespace DOLPHIN.Controllers
         }
         public IActionResult Create()
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            if (role == null)
+            {
+                return Redirect("/Login/Index");
+            }
             var toChucs = this._context.ToChuc.ToList();
             ViewBag.DMToChuc = new SelectList(toChucs, "Id", "TenToChuc", null);
 
@@ -94,6 +110,11 @@ namespace DOLPHIN.Controllers
         // Put: Update
         public async Task<IActionResult> Update(int? id)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            if (role == null)
+            {
+                return Redirect("/Login/Index");
+            }
             if (id > 0 )
             {
                 var toTrinh = this._context.ToTrinh.Where(x => x.Id == id).FirstOrDefault();
@@ -144,6 +165,11 @@ namespace DOLPHIN.Controllers
         // GET: Admin/Categories/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            if (role == null)
+            {
+                return Redirect("/Login/Index");
+            }
             if (id > 0)
             {
                 var toTrinh = this._context.ToTrinh.Where(x => x.Id == id).FirstOrDefault();

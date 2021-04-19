@@ -1,4 +1,5 @@
 ﻿using DOLPHIN.Model;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
@@ -18,13 +19,24 @@ namespace DOLPHIN.Controllers
             _logger = logger;
             _context = context;
         }
+
         public IActionResult Index()
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            if (role == null)
+            {
+                return Redirect("/Login/Index");
+            }
             var canBo = this._context.CanBo.ToList();
             return View(canBo);
         }
         public IActionResult Create()
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            if (role == null)
+            {
+                return Redirect("/Login/Index");
+            }
             return View();
         }
 
@@ -52,6 +64,11 @@ namespace DOLPHIN.Controllers
         // Put: Update
         public async Task<IActionResult> Update(int? id)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            if (role == null)
+            {
+                return Redirect("/Login/Index");
+            }
             if (id > 0)
             {
                 var canBo = this._context.CanBo.Where(x => x.Id == id).FirstOrDefault();
@@ -67,6 +84,11 @@ namespace DOLPHIN.Controllers
         // GET: Admin/Categories/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            if (role == null)
+            {
+                return Redirect("/Login/Index");
+            }
             if (id == null)
             {
                 return NotFound();
@@ -118,6 +140,11 @@ namespace DOLPHIN.Controllers
         // GET: Admin/Categories/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            if (role == null)
+            {
+                return Redirect("/Login/Index");
+            }
             if (id == null)
             {
                 return NotFound();

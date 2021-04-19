@@ -23,6 +23,11 @@ namespace DOLPHIN.Controllers
 
         public IActionResult Index()
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            if (role == null)
+            {
+                return Redirect("/Login/Index");
+            }
             ViewBag.ToTrinhIndex = this._context.ToTrinh.Count();
             ViewBag.CongTrinhKhaiThacIndex = this._context.CongTrinhKhaiThac.Count();
             ViewBag.CanBoQuanLyIndex = this._context.CanBo.Count();

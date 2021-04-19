@@ -1,4 +1,5 @@
 ﻿using DOLPHIN.Model;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
@@ -20,6 +21,11 @@ namespace DOLPHIN.Controllers
         }
         public IActionResult Index()
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            if (role == null)
+            {
+                return Redirect("/Login/Index");
+            }
             var donViHanhChinh = this._context.DonViHanhChinh.ToList();
             return View(donViHanhChinh);
         }
@@ -28,11 +34,21 @@ namespace DOLPHIN.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Search(string name)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            if (role == null)
+            {
+                return Redirect("/Login/Index");
+            }
             var donViHanhChinh = this._context.DonViHanhChinh.Where(x => x.TenDonViHanhChinh.Contains(name)).ToList();
             return View(donViHanhChinh);
         }
         public IActionResult Create()
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            if (role == null)
+            {
+                return Redirect("/Login/Index");
+            }
             return View();
         }
 
@@ -54,6 +70,11 @@ namespace DOLPHIN.Controllers
 
         public async Task<IActionResult> Edit(int? id)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            if (role == null)
+            {
+                return Redirect("/Login/Index");
+            }
             if (id == null)
             {
                 return NotFound();
@@ -105,6 +126,11 @@ namespace DOLPHIN.Controllers
         // GET
         public async Task<IActionResult> Delete(int? id)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            if (role == null)
+            {
+                return Redirect("/Login/Index");
+            }
             if (id == null)
             {
                 return NotFound();

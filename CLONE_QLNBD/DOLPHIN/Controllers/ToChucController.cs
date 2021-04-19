@@ -1,4 +1,5 @@
 ﻿using DOLPHIN.Model;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -21,11 +22,21 @@ namespace DOLPHIN.Controllers
         }
         public IActionResult Index()
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            if (role == null)
+            {
+                return Redirect("/Login/Index");
+            }
             var og = this._context.ToChuc.ToList();
             return View(og);
         }
         public IActionResult Create()
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            if (role == null)
+            {
+                return Redirect("/Login/Index");
+            }
             var canBo = this._context.CanBo.ToList();
             ViewBag.DMCanBo = new SelectList(canBo, "Id", "TenCanBo", null);
             return View();
@@ -55,6 +66,11 @@ namespace DOLPHIN.Controllers
         // GET: Admin/Categories/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            if (role == null)
+            {
+                return Redirect("/Login/Index");
+            }
             if (id == null)
             {
                 return NotFound();
@@ -108,6 +124,11 @@ namespace DOLPHIN.Controllers
         // GET: Admin/Categories/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
+            var role = HttpContext.Session.GetString("UserRole");
+            if (role == null)
+            {
+                return Redirect("/Login/Index");
+            }
             if (id == null)
             {
                 return NotFound();
